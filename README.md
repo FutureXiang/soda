@@ -1,4 +1,4 @@
-# SODA: Bottleneck Diffusion Models for Representation Learning
+# Unofficial Implementation for SODA: Bottleneck Diffusion Models for Representation Learning
 <p align="center">
   <img src="https://github.com/FutureXiang/soda/assets/33350017/7bfd19a8-950b-44f1-8d36-d3c7e0866321" width="640">
 </p>
@@ -12,6 +12,8 @@ This is a multi-gpu PyTorch implementation of the paper [SODA: Bottleneck Diffus
   year={2023}
 }
 ```
+:exclamation: Please refer to https://github.com/dorarad/soda-diffusion for the authors' official repository.
+
 :exclamation: Note that this implementation only cares about the *linear-probe classification* performance, and somewhat ignores other generative downstream tasks. However, this could be a good start for further development. Please check out [this DDAE repo](https://github.com/FutureXiang/ddae), which is the "unconditional" baseline in the SODA paper, if you are also interested in diffusion-based classification.
 
 :exclamation: This repo only contains configs and experiments on small or medium scale datasets such as CIFAR-10/100 and Tiny-ImageNet. Full re-implementation on ImageNet-1k would be extremely expensive.
