@@ -1,4 +1,4 @@
-# SODA: Bottleneck Diffusion Models for Representation Learning
+# Unofficial implementation of SODA: Bottleneck Diffusion Models for Representation Learning
 <p align="center">
   <img src="https://github.com/FutureXiang/soda/assets/33350017/7bfd19a8-950b-44f1-8d36-d3c7e0866321" width="640">
 </p>
